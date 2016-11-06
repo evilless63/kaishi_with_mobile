@@ -1,0 +1,236 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+  background-color: #e0ecec; }
+  body .container {
+    width: 1210px;
+    margin: 0 auto; }
+  body header {
+    background: #416482;
+    height: 55px;
+    border-bottom: 4px solid #2a333c; }
+    body header .my.my_w::before {
+      font-size: 170px;
+      position: absolute;
+      top: -65px;
+      color: #ced8e1; }
+    body header .auth_path {
+      float: right; }
+      body header .auth_path ul {
+        position: relative; }
+        body header .auth_path ul li {
+          display: inline-block; }
+          body header .auth_path ul li .my.my_k::before {
+            font-size: 18px;
+            top: 5px;
+            left: 48px;
+            position: absolute; }
+          body header .auth_path ul li .auth_link {
+            font-weight: bold;
+            font-size: 13px;
+            color: #f6f6f6;
+            margin-top: -5px;
+            display: block;
+            text-decoration: none;
+            padding: 8px 10px 8px 28px;
+            border-radius: 8px; }
+            body header .auth_path ul li .auth_link span {
+              line-height: 28px; }
+          body header .auth_path ul li .auth_link:hover {
+            background-color: #2a333c;
+            -webkit-box-shadow: inset 0px 1px 9px 0px rgba(0, 0, 0, 0.55);
+            -moz-box-shadow: inset 0px 1px 9px 0px rgba(0, 0, 0, 0.55);
+            box-shadow: inset 0px 1px 9px 0px rgba(0, 0, 0, 0.55); }
+          body header .auth_path ul li .auth_out {
+            text-transform: uppercase;
+            padding: 14px 15px 15px 15px; }
+  body ul.date_time_path {
+    position: relative; }
+    body ul.date_time_path li {
+      display: inline-block;
+      position: relative;
+      color: #646868;
+      margin-left: 30px; }
+      body ul.date_time_path li .my.my_j:before, body ul.date_time_path li .my.my_i:before {
+        font-size: 25px;
+        position: absolute;
+        left: -22px;
+        top: -8px; }
+      body ul.date_time_path li span {
+        font-family: arial;
+        font-weight: bold;
+        font-size: 13px;
+        color: #416482; }
+  body main.main_board {
+    background-color: #fff;
+    -webkit-box-shadow: -1px 2px 25px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: -1px 2px 25px 0px rgba(50, 50, 50, 0.4);
+    box-shadow: -1px 2px 25px 0px rgba(50, 50, 50, 0.4);
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 105px; }
+    body main.main_board .main_board_h1 {
+      font-size: 27px;
+      padding: 7px 0px 7px 52px;
+      margin: 0px;
+      background-color: #e7eff1;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      width: 1159px;
+      position: relative;
+      -webkit-box-shadow: inset 0px -1px 2px 0px rgba(0, 0, 0, 0.55);
+      -moz-box-shadow: inset 0px -1px 2px 0px rgba(0, 0, 0, 0.55);
+      box-shadow: inset 0px -1px 2px 0px rgba(0, 0, 0, 0.55); }
+      body main.main_board .main_board_h1 span {
+        font-family: arial;
+        background-color: #565656;
+        color: transparent;
+        text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.5);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text; }
+    body main.main_board .app_form_search {
+      float: right;
+      padding: 0px 15px 0px 0px;
+      margin-top: -5px;
+      position: relative; }
+      body main.main_board .app_form_search .my.my_h:before {
+        position: absolute;
+        top: 13px;
+        left: 12px;
+        font-size: 16px; }
+      body main.main_board .app_form_search .app_search {
+        font-family: arial;
+        text-transform: uppercase;
+        -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+        padding: 2px 0 2px 21px; 
+        position: relative;}
+    body main.main_board .my.my_g::before {
+      position: absolute;
+      top: 8px;
+      left: 23px;
+      color: #687780; }
+    body main.main_board .menu_main_board {
+      display: flex;
+      justify-content: space-around; }
+      body main.main_board .menu_main_board .menu_main_link {
+        position: relative;
+        text-align: center;
+        padding: 0px 10px 3px 10px;
+        margin: 18px 0 18px 0;
+        cursor: pointer;
+        transition: 145ms; }
+        body main.main_board .menu_main_board .menu_main_link .my.my_a::before, body main.main_board .menu_main_board .menu_main_link .my.my_b::before, body main.main_board .menu_main_board .menu_main_link .my.my_c::before, body main.main_board .menu_main_board .menu_main_link .my.my_d::before, body main.main_board .menu_main_board .menu_main_link .my.my_e::before, body main.main_board .menu_main_board .menu_main_link .my.my_f::before {
+          font-size: 145px; }
+        body main.main_board .menu_main_board .menu_main_link .my.my_a::before {
+          color: #579ac7; }
+        body main.main_board .menu_main_board .menu_main_link .my.my_b::before {
+          color: #009a78; }
+        body main.main_board .menu_main_board .menu_main_link .my.my_c::before {
+          color: #bb67cf; }
+        body main.main_board .menu_main_board .menu_main_link .my.my_d::before {
+          color: #195b8f; }
+        body main.main_board .menu_main_board .menu_main_link .my.my_e::before {
+          color: #067c1c; }
+        body main.main_board .menu_main_board .menu_main_link .my.my_f::before {
+          color: #db0000; }
+        body main.main_board .menu_main_board .menu_main_link span {
+          display: block;
+          font-family: arial;
+          font-size: 17px;
+          text-transform: uppercase;
+          color: #2a333c;
+          padding-top: 6px; }
+      body main.main_board .menu_main_board .menu_main_link:hover {
+        background-color: #e0ecec;
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0px 2px 7px 0px rgba(0, 0, 0, 0.55);
+        -moz-box-shadow: inset 0px 2px 7px 0px rgba(0, 0, 0, 0.55);
+        box-shadow: inset 0px 2px 7px 0px rgba(0, 0, 0, 0.55);
+        transition: 150ms; }
+      body main.main_board .menu_main_board .count_app {
+        border-radius: 100%;
+        border: 3px solid #f2e00c;
+        position: absolute;
+        width: 33px;
+        height: 33px;
+        background-color: #fff;
+        top: 15px;
+        left: 100px;
+        font-family: arial;
+        font-size: 14px;
+        color: #416482;
+        line-height: 35px; }
+    body main.main_board .application_field {
+      border-spacing: 0;
+      border-collapse: separate; }
+      body main.main_board .application_field .application_field_header {
+        font-size: 18px;
+        font-family: arial;
+        color: #416482;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500; }
+      body main.main_board .application_field .app_number, body main.main_board .application_field .app_phone, body main.main_board .application_field .app_adress, body main.main_board .application_field .app_time, body main.main_board .application_field .app_status {
+        padding: 9px 0;
+        background-color: #c9d3dc; }
+      body main.main_board .application_field .app_number, body main.main_board .application_field .app_body_number {
+        width: 50px; }
+      body main.main_board .application_field .app_phone, body main.main_board .application_field .app_body_phone {
+        width: 185px; }
+      body main.main_board .application_field .app_adress, body main.main_board .application_field .app_body_adress {
+        width: 700px; }
+      body main.main_board .application_field .app_time, body main.main_board .application_field .app_body_time {
+        width: 115px; }
+      body main.main_board .application_field .app_status, body main.main_board .application_field .app_status_accepted, body main.main_board .application_field .app_status_new, body main.main_board .application_field .app_status_onway {
+        width: 160px; }
+      body main.main_board .application_field .application_field_body {
+        background-color: #fff;
+        font-size: 18px;
+        font-family: arial;
+        color: #2a333c;
+        text-align: center;
+        font-weight: bold; }
+        body main.main_board .application_field .application_field_body .app_body_adress {
+          text-align: left;
+          padding-left: 18px; }
+        body main.main_board .application_field .application_field_body tr.app_whitespace_field_body:hover {
+          background-color: #fff; }
+        body main.main_board .application_field .application_field_body tr.app_whitespace_field_body:active {
+          box-shadow: none; }
+        body main.main_board .application_field .application_field_body tr:hover {
+          background-color: #daeeff; }
+        body main.main_board .application_field .application_field_body tr:active {
+          -webkit-box-shadow: inset 0px 3px 6px 0px rgba(0, 0, 0, 0.45);
+          -moz-box-shadow: inset 0px 3px 6px 0px rgba(0, 0, 0, 0.45);
+          box-shadow: inset 0px 3px 6px 0px rgba(0, 0, 0, 0.45); }
+        body main.main_board .application_field .application_field_body tr td {
+          padding: 9px 0;
+          border: 1px solid #c9d3dc;
+          cursor: pointer; }
+          body main.main_board .application_field .application_field_body tr td a {
+            color: #2a333c;
+            text-decoration: none; }
+        body main.main_board .application_field .application_field_body .app_status_new, body main.main_board .application_field .application_field_body .app_status_accepted, body main.main_board .application_field .application_field_body .app_status_onway {
+          text-transform: uppercase; }
+        body main.main_board .application_field .application_field_body .app_status_new {
+          color: #009a4f; }
+        body main.main_board .application_field .application_field_body .app_status_accepted {
+          color: #bb67cf; }
+        body main.main_board .application_field .application_field_body .app_status_onway {
+          color: #195b8f; }
+        body main.main_board .application_field .application_field_body .app_whitespace_field_body {
+          height: 390px; }
+      body main.main_board .application_field tr.app_whitespace_field_body > td:nth-child(1) {
+        -webkit-border-bottom-left-radius: 8px;
+        -moz-border-radius-bottomleft: 8px;
+        border-bottom-left-radius: 8px; }
+      body main.main_board .application_field tr.app_whitespace_field_body > td.app_status_onway {
+        -webkit-border-bottom-right-radius: 8px;
+        -moz-border-radius-bottomright: 8px;
+        border-bottom-right-radius: 8px; }
+

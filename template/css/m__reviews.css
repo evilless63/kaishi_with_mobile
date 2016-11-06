@@ -1,0 +1,418 @@
+@charset "UTF-8";
+body {
+  background: url(../images/background.jpg);
+  width: 100%;
+  height: 100%; }
+
+* {
+  transition: 200ms; }
+
+*:hover {
+  transition: 200ms; }
+
+.container {
+  width: 100%;
+  margin: 0 auto; }
+  @media screen and (max-width: 640px) {
+    .container {
+      width: 100%; } }
+
+.row {
+  display: flex; }
+
+.toLeft {
+  justify-content: left; }
+
+.toRight {
+  justify-content: right; }
+
+.toCenter {
+  justify-content: center; }
+
+.toSpaceBetween {
+  justify-content: space-between; }
+
+.toSpaceAround {
+  justify-content: space-around; }
+
+.alignCenter {
+  align-items: center; }
+
+.alignStretch {
+  align-items: stretch; }
+
+.alignBaseline {
+  align-items: baseline; }
+
+.mobileFooter {
+  background: red;
+  height: 113px;
+  background: url(../images/desktop/header_background.png) no-repeat center center;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.65);
+  border-top: 3px solid #00b4cd;
+  height: 40px;
+  display: none; }
+  .mobileFooter .mobileFooterMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0 0 0; }
+    .mobileFooter .mobileFooterMenu .mobileFooterMenuBlock {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      .mobileFooter .mobileFooterMenu .mobileFooterMenuBlock .mobileFooterMenuBlockDesc {
+        text-transform: uppercase;
+        font-family: arial;
+        font-size: 0.6em;
+        padding-top: 5px;
+        color: #fff; }
+
+.mobileHeader {
+  background: red;
+  height: 113px;
+  background: url(../images/desktop/header_background.png) no-repeat center center;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.65);
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 3px solid #00b4cd;
+  height: 40px; }
+  .mobileHeader .headerMenuIcon {
+    width: 7%; }
+    .mobileHeader .headerMenuIcon .headerMenuBurger {
+      border-bottom: 0.3em solid #fff;
+      margin-bottom: 3px; }
+  .mobileHeader .headerMenuIcon:hover + .headerMenuBurger {
+    border-bottom: 3px solid #00b4cd; }
+  .mobileHeader .logo {
+    height: 26px; }
+    .mobileHeader .logo a img {
+      width: 60%; }
+
+.special {
+  background: url(../images/mobile/specialBackground.jpg) top left no-repeat;
+  background-color: black;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .special .specialDesc {
+    text-align: center;
+    width: 50%; }
+    .special .specialDesc .specialDescHeader {
+      font-family: arial;
+      font-weight: bold;
+      font-size: 1.3em;
+      color: #00b4cd;
+      padding-bottom: 5px; }
+    .special .specialDesc .specialDescText {
+      font-family: arial;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      line-height: 1.2em;
+      color: #00b4cd; }
+
+/**Уникальные стили**/
+.topMenuWrap {
+  background-color: rgba(16, 16, 16, 0.75);
+  padding: 5px 0px; }
+
+.topMenu, .registerAndSearch {
+  width: 328px; }
+  .topMenu ul li a:hover, .registerAndSearch ul li a:hover {
+    color: white; }
+  .topMenu ul li a, .registerAndSearch ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.7em;
+    font-family: arial; }
+
+.registerAndSearch {
+  width: 171px; }
+  .registerAndSearch ul input[type="text"] {
+    width: 60px;
+    font-size: 0.7em;
+    background-color: #404040;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 2px 3px; }
+  .registerAndSearch span {
+    color: rgba(255, 255, 255, 0.7); }
+
+.informationTopPath .workInfo {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7); }
+  .informationTopPath .workInfo .phone:before {
+    content: url(../images/icons/topMenu__phone.png);
+    width: 20px;
+    left: -4px;
+    top: 6px;
+    position: absolute; }
+  .informationTopPath .workInfo .phone, .informationTopPath .workInfo .workHours {
+    font-family: arial;
+    font-size: 16px;
+    padding: 8px 0px 6px 0px;
+    position: relative; }
+  .informationTopPath .workInfo .phone {
+    padding-left: 25px; }
+  .informationTopPath .workInfo .workHours {
+    line-height: 19px; }
+    .informationTopPath .workInfo .workHours span {
+      color: #00b4cd; }
+
+.informationTopPath .logo {
+  text-align: center;
+  padding: 4px 0 0 0; }
+  .informationTopPath .logo .line {
+    border-top: 1px solid #00b9cb; }
+  .informationTopPath .logo p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: candara;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 4px 0 0 0; }
+
+.informationTopPath .cart {
+  background-color: rgba(255, 255, 255, 0.53);
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-family: arial;
+  font-size: 10px;
+  padding: 4px 7px;
+  line-height: 12px;
+  margin-top: 4px;
+  margin-left: 53px; }
+
+.mainWrap .sidebar {
+  width: 100%; }
+  .mainWrap .sidebar .productMenu .productMenuHeader {
+    background-color: #00bacd;
+    font-family: candara;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+    padding: 12px 15px;
+    text-transform: uppercase; }
+  .mainWrap .sidebar .productMenu ul li {
+    position: relative; }
+    .mainWrap .sidebar .productMenu ul li a {
+      font-family: candara;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #353637;
+      font-weight: bold;
+      padding: 19.3px 18px 10.6px 80px;
+      display: block;
+      position: relative;
+      background: url(../images/menu_background.jpg);
+      border-bottom: 1px solid #338892; }
+    .mainWrap .sidebar .productMenu ul li a:hover {
+      color: #00b4cd;
+      background-color: rgba(255, 255, 255, 0.8); }
+    .mainWrap .sidebar .productMenu ul li a:after {
+      content: url(../images/icons/mainMenu__arrow.svg);
+      position: absolute;
+      width: 20px;
+      top: 16px;
+      right: 10px; }
+    .mainWrap .sidebar .productMenu ul li a.sushi:before {
+      content: url(../images/icons/mainMenu__sushi.svg);
+      position: absolute;
+      width: 45px;
+      top: 10px;
+      left: 10%; }
+    .mainWrap .sidebar .productMenu ul li a.inari:before {
+      content: url(../images/icons/mainMenu__inari.svg);
+      position: absolute;
+      width: 45px;
+      top: 10px;
+      left: 10%; }
+    .mainWrap .sidebar .productMenu ul li a.rolls:before {
+      content: url(../images/icons/mainMenu__rolls.svg);
+      position: absolute;
+      width: 45px;
+      top: 10px;
+      left: 10%; }
+    .mainWrap .sidebar .productMenu ul li a.hotrolls:before {
+      content: url(../images/icons/mainMenu__hotrolls.svg);
+      position: absolute;
+      width: 45px;
+      top: 10px;
+      left: 10%; }
+    .mainWrap .sidebar .productMenu ul li a.set:before {
+      content: url(../images/icons/mainMenu__set.svg);
+      position: absolute;
+      width: 45px;
+      top: 10px;
+      left: 10%; }
+    .mainWrap .sidebar .productMenu ul li a.gunkan:before {
+      content: url(../images/icons/mainMenu__gunkan.svg);
+      position: absolute;
+      width: 45px;
+      top: 10px;
+      left: 10%; }
+    .mainWrap .sidebar .productMenu ul li a.zakuski:before {
+      content: url(../images/icons/mainMenu__zakuski.svg);
+      position: absolute;
+      width: 55px;
+      top: 10px;
+      left: 8%; }
+    .mainWrap .sidebar .productMenu ul li a.pizza:before {
+      content: url(../images/icons/mainMenu__pizza.svg);
+      position: absolute;
+      width: 65px;
+      top: 0px;
+      left: 7%; }
+    .mainWrap .sidebar .productMenu ul li a.drink:before {
+      content: url(../images/icons/mainMenu__drink.svg);
+      position: absolute;
+      width: 45px;
+      top: 10px;
+      left: 10%; }
+  .mainWrap .sidebar .productMenu ul li:before {
+    content: "";
+    width: 9%;
+    height: 45px;
+    position: absolute;
+    border-right: dashed 1px #c5c5c5;
+    z-index: 10; }
+  .mainWrap .sidebar .productMenu ul li:after {
+    content: "";
+    width: 9%;
+    height: 45px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    border-left: dashed 1px #c5c5c5; }
+  .mainWrap .sidebar .themeSets .themeSetsHeader {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-family: candara;
+    font-size: 1.2em;
+    background-color: #1d1d1b;
+    padding: 13px 15px; }
+    .mainWrap .sidebar .themeSets .themeSetsHeader a {
+      color: white; }
+  .mainWrap .sidebar .themeSets .themeSetsBlock {
+    background-color: rgba(255, 255, 255, 0.4); }
+    .mainWrap .sidebar .themeSets .themeSetsBlock .themeSetsBlockHeader a {
+      font-family: candara;
+      font-weight: bold;
+      font-size: 1em;
+      color: #353637;
+      background-color: white;
+      padding: 4px 15px;
+      display: block;
+      position: relative; }
+    .mainWrap .sidebar .themeSets .themeSetsBlock .themeSetsBlockHeader a:after {
+      content: url(../images/icons/mainMenu__arrow.svg);
+      position: absolute;
+      width: 20px;
+      top: 4px;
+      right: 10px; }
+    .mainWrap .sidebar .themeSets .themeSetsBlock a.themeSetsBlockImage {
+      display: block;
+      text-align: center;
+      position: relative;
+      margin-top: 10px; }
+      .mainWrap .sidebar .themeSets .themeSetsBlock a.themeSetsBlockImage .themeSetsBlockImageCover {
+        width: 241px;
+        height: 160px;
+        margin-bottom: -163px;
+        display: inline-block;
+        position: absolute;
+        text-align: center; }
+        .mainWrap .sidebar .themeSets .themeSetsBlock a.themeSetsBlockImage .themeSetsBlockImageCover span {
+          display: none;
+          color: white;
+          font-size: 1.9em;
+          text-transform: uppercase;
+          font-family: candara;
+          font-weight: bold;
+          padding-top: 66px; }
+      .mainWrap .sidebar .themeSets .themeSetsBlock a.themeSetsBlockImage .themeSetsBlockImageCover:hover {
+        background-image: linear-gradient(135deg, rgba(0, 186, 205, 0.42), rgba(1, 73, 80, 0.42));
+        transition: 200ms; }
+      .mainWrap .sidebar .themeSets .themeSetsBlock a.themeSetsBlockImage p {
+        position: absolute;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 19.37px;
+        color: white;
+        background-color: #d92b3f;
+        padding: 3px;
+        bottom: 3px;
+        right: 15px; }
+    .mainWrap .sidebar .themeSets .themeSetsBlock p.themeSetsBlockDesc {
+      font-family: candara;
+      font-size: 0.88em;
+      color: #353637;
+      text-align: left;
+      padding: 3px 15px 9px 15px; }
+
+@media screen and (max-width: 640px) {
+  .body {
+    width: 640px; } }
+
+@media screen and (max-width: 500px) {
+  .body {
+    width: 500px; } }
+
+@media screen and (max-width: 400px) {
+  .body {
+    width: 400px; } }
+
+@media screen and (max-width: 321px) {
+  .body {
+    width: 320px; } }
+
+.sidebar {
+  padding: 0 15px; }
+
+h1.headerContent {
+  font-family: candara;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 12px 0px; }
+
+.feedbackBlock {
+  border-top: 1px solid #d9d8d8;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 3px 0 3px; }
+  .feedbackBlock .feedbackBlockImageDesc {
+    width: 70%; }
+    .feedbackBlock .feedbackBlockImageDesc .feedbackBlockImage {
+      float: left; }
+      .feedbackBlock .feedbackBlockImageDesc .feedbackBlockImage img {
+        width: 51px;
+        height: 51px;
+        border-radius: 50%; }
+    .feedbackBlock .feedbackBlockImageDesc .feedbackBlockDesc .feedbackBlockDescRow {
+      display: flex;
+      font-family: arial;
+      font-size: 0.8em;
+      text-transform: none;
+      font-weight: normal;
+      padding: 5px 0px 0px 6px; }
+      .feedbackBlock .feedbackBlockImageDesc .feedbackBlockDesc .feedbackBlockDescRow .feedbackBlockDescName {
+        color: black; }
+      .feedbackBlock .feedbackBlockImageDesc .feedbackBlockDesc .feedbackBlockDescRow .feedbackBlockDescWhere {
+        color: #999999;
+        padding: 0 0 0 5px; }
+      .feedbackBlock .feedbackBlockImageDesc .feedbackBlockDesc .feedbackBlockDescRow .feedbackBlockDescComment {
+        color: #999999; }
+  .feedbackBlock .feedbackBlockStars {
+    margin-right: 16px; }
+.topAlert {
+  display: none;
+}

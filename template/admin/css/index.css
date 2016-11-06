@@ -1,0 +1,46 @@
+body {
+  background: #e0ecec; }
+  body .logo {
+    margin: 40px auto;
+    text-align: center; }
+  body .loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    height: 345px;
+    width: 420px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    margin: 0 auto; }
+    body .loginForm input[type="text"], body .loginForm input[type="password"] {
+      width: 350px;
+      padding: 15px 10px;
+      box-shadow: inset 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+      font-size: 17.33px;
+      font-family: arial;
+      background: #e0ecec;
+      border-radius: 5px;
+      margin-top: -10px;
+      text-transform: uppercase; }
+    body .loginForm input[type="text"]::-webkit-input-placeholder::first-letter,  body .loginForm input[type="password"]::-webkit-input-placeholder::first-letter {
+      color: #2a333c; }
+    body .loginForm .loginFormEnter {
+      background: #416482;
+      box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+      padding: 5px 10px;
+      text-align: center; }
+      body .loginForm .loginFormEnter input[type="submit"] {
+        text-transform: uppercase;
+        font-family: arial;
+        color: #fff;
+        font-size: 15.33px;
+        text-decoration: none;
+        border: none;
+        background: none; }
+    body .loginForm .loginFormForgetPass a {
+      font-family: arial;
+      font-size: 13.33px;
+      text-decoration: none;
+      color: #000; }
